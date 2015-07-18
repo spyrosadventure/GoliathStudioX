@@ -6,6 +6,7 @@ A **PKZ** file is a compressed **PAK** file, it quite literally just means **Pak
 
 ## PAK
 A **PAK** file is a container of chunks/objects. It contains a very large hierarchy of these chunks, and each chunk header is formatted like this:
+Only chunks that do not have the "Has Sub-Chunks?" option enabled, can contain data.
 
 [GS9 / GS8 / GS7]
 
